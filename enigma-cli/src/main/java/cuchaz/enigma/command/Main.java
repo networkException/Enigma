@@ -80,6 +80,7 @@ public class Main {
 	}
 
 	static {
+		register(new ExportMinecraftSourcesCommand());
 		register(new DeobfuscateCommand());
 		register(new DecompileCommand());
 		register(new ConvertMappingsCommand());
